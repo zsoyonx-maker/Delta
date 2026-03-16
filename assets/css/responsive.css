@@ -25,6 +25,10 @@
 }
 
 @media (max-width: 960px) {
+    #mNav button {
+        display: block;
+    }
+
     .logo {
         margin-right: 0;
     }
@@ -54,10 +58,6 @@
         word-break: keep-all;
         width: 90%;
         margin: 0 auto;
-    }
-
-    #mNav {
-        display: block;
     }
 }
 
