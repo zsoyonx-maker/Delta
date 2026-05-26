@@ -477,6 +477,16 @@
             $(".firstMenu").click(function(){
                 $(this).next(".footer_dropdown").slideToggle();
             })
+
+            // top 버튼
+            $(".top").click(function () {
+                $("html, body").animate(
+                    {
+                        scrollTop: 0,
+                    },
+                    600,
+                );
+            });
         </script>
     </body>
 </html>
